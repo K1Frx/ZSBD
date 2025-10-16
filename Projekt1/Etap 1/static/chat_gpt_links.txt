@@ -1,0 +1,9 @@
+Trigger do dodawania zatrudnień:
+
+https://chatgpt.com/share/68efc55b-7bb4-800b-a232-a84a777ca026
+
+Inny wątek, bardziej uniwersalny:
+
+https://chatgpt.com/share/68efe450-fbcc-800b-9049-efef31ad78ea
+
+Do tego miałem Copilota i podpowiadanie kodu włączone w VSC - gdzie pisałem wszystkie pliki dostępne tutaj (głównie wykorzystany do uzupełnień danych)

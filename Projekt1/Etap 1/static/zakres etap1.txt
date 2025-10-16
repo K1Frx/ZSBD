@@ -1,0 +1,47 @@
+Zakres:  
+1) Przygotuj krótkie case study (na około pół strony) dla wybranej problematyki.  
+2) Wybierz system zarządzania relacyjną bazą danych (np. SQL Server, Oracle, PostgreSQL, 
+MySQL, …), zainstaluj i poprawnie skonfiguruj. Krótko uzasadnij wybór. Nie należy 
+dokumentować każdego kroku instalacji, tylko przedstawić efekty i konfigurację. Można 
+skorzystać z dockera. 
+3) Dla przygotowanego case study przedstaw projekt i opisz go ze strony bazodanowej. Umieść 
+w sprawozdaniu informacje, jakie dane będą przechowywane w bazie, jacy użytkownicy 
+będą z niej korzystać, jakie usługi powinny być im udostępnione. Na tej podstawie oraz 
+wstępnego diagramu ERD zaprojektuj schemat bazy danych. Jeśli nie wiesz – uzupełnij 
+wiedzę o różnicach między diagramem ERD a schematem logicznym bazy danych. Polecam 
+wykonać te elementy przed podejściem do implementowania bazy danych – mogą być 
+również wykonane na kartce i zrobione zdjęcie, byle było czytelnie. 
+Przypomnienie: Diagram ERD przedstawia bazę danych czytelną językiem naturalnym (relacje są 
+podpisane, możemy przeczytać encja-relacja-encja jako równoważnik zdania) i może zawierać 
+wszelkie formy relacji (zwłaszcza chodzi o n:m). Mogą na nim być przedstawione atrybuty, ale nie jest 
+to wymagane. Można użyć dowolnej notacji. 
+Schemat logiczny bazy danych przedstawia diagram zaimplementowanej bazy danych, więc zawiera 
+już tablice asocjacyjne, słownikowe, oznaczenia kluczy i ograniczeń (UNIQUE, NOT NULL) oraz typy 
+danych. Może zawierać również informacje o indeksach. 
+4) Umieść elementy z punktów 1-3 w ISOD w rubryce „Case Study” do końca dnia 14.10 
+5) Stwórz bazę danych w trzeciej postaci normalnej (3NF) zawierającą co najmniej 8 tabel 
+niezależnych, co najmniej jeden schemat bazodanowy (database schema; jeśli SZBD na 
+takowe pozwala). Przygotuj potrzebne tabele słownikowe i asocjacyjne. Wybierz 
+odpowiednie typy danych dla każdej kolumny (podobnie z decyzją o unikalności i allow nulls). 
+Wybierz klucze i utwórz relacje pomiędzy tabelami. Tam, gdzie są przydatne, utwórz klucze 
+kompozytowe. Uzasadnij istotne decyzje i umieść w sprawozdaniu czytelny schemat logiczny 
+bazy danych zawierający typy danych, relacje i klucze. 
+W przypadku odejścia od 3NF wyjaśnij dlaczego podjęta została taka decyzja. 
+6) Wypełnij bazę danymi mającymi sens – mogą być stworzone przy pomocy generatorów 
+danych syntetycznych. 
+7) Stwórz potrzebnych użytkowników i nadaj im uprawnienia (w razie potrzeby wykorzystaj 
+schematy bazodanowe) – przetestuj, czy użytkownicy mają właściwy dostęp. Testy 
+udokumentuj.  
+8) Wykonaj i udokumentuj dwa zapytania SQL spełniające potrzebne funkcjonalności – 
+trywialne zapytania nie będą punktowane. W celu uzyskania pełnych punktów należy 
+przygotować bardziej złożone zapytania oraz podzapytanie. 
+9) Przygotuj perspektywy ukazujące różne informacje z bazy i udostępnij je właściwym 
+użytkownikom. Pamiętaj, żeby informacje były przekazywane w czytelnej dla użytkownika 
+postaci. Perspektywy powinny być nietrywialne, na ile możliwe staramy się zapewnić 
+niektórym użytkownikom dostęp do bazy tylko poprzez perspektywy. Jeśli nie 
+zaimplementujesz wszystkich potrzebnych perspektyw, postaraj się chociaż je wymienić i 
+krótko opisać.  
+10) Stwórz indeksy odpowiedniego typu na właściwych kolumnach. Wyjaśnij, dlaczego dla każdej 
+z tabel przyjęto taki typ i liczbę indeksów, jak również, dlaczego właśnie te kolumny zostały 
+pokryte indeksami. Tam, gdzie potrzebne przygotuj indeksy kompozytowe, wyjaśnij różnicę 
+w działaniu między indeksami – najlepiej na praktycznym przykładzie z testami wydajności.

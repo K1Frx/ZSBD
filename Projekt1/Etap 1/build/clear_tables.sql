@@ -1,0 +1,17 @@
+IF OBJECT_ID('dbo.HolidayRequest', 'U') IS NOT NULL DROP TABLE dbo.HolidayRequest;
+IF OBJECT_ID('dbo.HolidayRequestStatus', 'U') IS NOT NULL DROP TABLE dbo.HolidayRequestStatus;
+IF OBJECT_ID('dbo.Absence', 'U') IS NOT NULL DROP TABLE dbo.Absence;
+IF OBJECT_ID('dbo.AbsenceType', 'U') IS NOT NULL DROP TABLE dbo.AbsenceType;
+IF OBJECT_ID('dbo.Worktime', 'U') IS NOT NULL DROP TABLE dbo.Worktime;
+IF OBJECT_ID('dbo.WorktimeType', 'U') IS NOT NULL DROP TABLE dbo.WorktimeType;
+IF OBJECT_ID('dbo.Facture', 'U') IS NOT NULL DROP TABLE dbo.Facture;
+IF OBJECT_ID('dbo.Partner', 'U') IS NOT NULL DROP TABLE dbo.Partner;
+IF OBJECT_ID('dbo.Employment', 'U') IS NOT NULL DROP TABLE dbo.Employment;
+IF OBJECT_ID('dbo.EmploymentType', 'U') IS NOT NULL DROP TABLE dbo.EmploymentType;
+IF OBJECT_ID('dbo.Worker', 'U') IS NOT NULL DROP TABLE dbo.Worker;
+IF OBJECT_ID('dbo.ResponsibilityPosition', 'U') IS NOT NULL DROP TABLE dbo.ResponsibilityPosition;
+IF OBJECT_ID('dbo.ResponsibilityEmployment', 'U') IS NOT NULL DROP TABLE dbo.ResponsibilityEmployment;
+IF OBJECT_ID('dbo.Responsibility', 'U') IS NOT NULL DROP TABLE dbo.Responsibility;
+IF OBJECT_ID('dbo.Position', 'U') IS NOT NULL DROP TABLE dbo.Position;
+IF OBJECT_ID('dbo.Department', 'U') IS NOT NULL DROP TABLE dbo.Department;
+IF OBJECT_ID('dbo.Company', 'U') IS NOT NULL DROP TABLE dbo.Company;
