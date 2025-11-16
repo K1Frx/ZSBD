@@ -1,0 +1,9 @@
+Ogólny czat z podpowiedziami:
+
+https://gemini.google.com/share/6ab652ed6dff
+
+Odnośnie setupu Postgresa:
+https://gemini.google.com/app/658425ce535b76ca
+
+Trochę kodu:
+https://gemini.google.com/app/ecc5cadf7ecc79d6

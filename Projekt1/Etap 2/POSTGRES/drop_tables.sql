@@ -1,0 +1,16 @@
+DROP TABLE absence;
+DROP TABLE holiday_request;
+DROP TABLE absence_type;
+DROP TABLE worktime;
+DROP TABLE worktime_type;
+DROP TABLE facture;
+DROP TABLE partner;
+DROP TABLE responsibility_employment;
+DROP TABLE employment;
+DROP TABLE employment_type;
+DROP TABLE worker;
+DROP TABLE responsibility_position;
+DROP TABLE responsibility;
+DROP TABLE position;
+DROP TABLE department;
+DROP TABLE company;

@@ -1,0 +1,10 @@
+services:
+    postgres:
+        image: postgres:16
+        environment:
+            - POSTGRES_PASSWORD=Admin123!
+            - POSTGRES_DB=postgres
+        volumes:
+            - ./postgresql/local/:/var/lib/postgresql/data
+        ports:
+            - 5432:5432
