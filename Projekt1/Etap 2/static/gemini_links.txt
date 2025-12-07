@@ -3,7 +3,7 @@ Ogólny czat z podpowiedziami:
 https://gemini.google.com/share/6ab652ed6dff
 
 Odnośnie setupu Postgresa:
-https://gemini.google.com/app/658425ce535b76ca
+https://gemini.google.com/share/3193f633455f
 
 Trochę kodu:
-https://gemini.google.com/app/ecc5cadf7ecc79d6
+https://gemini.google.com/share/4e5d00a303ac
